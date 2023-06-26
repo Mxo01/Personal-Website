@@ -1,0 +1,48 @@
+#contacts {
+  height: 100svh;
+  background-color: #101518;
+}
+
+.landing {
+  height: calc(100svh - 56px);
+  transform: translateY(56px);
+  width: 100%;
+}
+
+.contacts-background {
+  color: #1f262a;
+  font-size: 18vw;
+  z-index: -1;
+}
+
+.phone, .email {
+  font-size: 4vw;
+  font-weight: 600;
+  margin: 0;
+}
+
+.email {
+  text-decoration: none;
+  color: #adb5bd;
+}
+
+.email:hover {
+  transition: scale(1.1);
+  transition: 0.4s;
+  color: #40759e
+}
+
+.btn {
+  border: none;
+  background-color: #40759e;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #1e5c8b;
+}
+
+.btn:active {
+  background-color: #40759e;
+  color: white;
+}

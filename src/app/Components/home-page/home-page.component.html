@@ -1,0 +1,44 @@
+<div id="home">
+  <div class="landing">
+    <div class="text-div-xl container position-absolute">
+      <p class="description text-light d-none d-lg-block"><span style="font-size: 4rem;">👋🏻</span> <br> Hi! I'm <span>Mario Di Modica</span> from Italy and I have a Bachelor's Degree in Computer Science at University of Pisa.</p>
+      <p class="description-md text-light d-none d-md-block d-lg-none"><span style="font-size: 4rem;">👋🏻</span> <br> Hi! I'm <span>Mario Di Modica</span> from Italy and I have a Bachelor's Degree in Computer Science at University of Pisa.</p>
+      <p class="description-sm text-light d-none d-sm-block d-md-none"><span style="font-size: 4rem;">👋🏻</span> <br> Hi! I'm <span>Mario Di Modica</span> from Italy and I have a Bachelor's Degree in Computer Science at University of Pisa.</p>
+      <div class="justify-content-center d-none d-md-flex">
+        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-Hire me-3">Hire Me</button>
+        <a class="btn btn-dark" href="../../../assets/CV - Mario Di Modica.pdf" download="CV - Mario Di Modica">Download CV</a>
+      </div>
+      <div class="d-none d-sm-flex flex-column justify-content-center d-md-none">
+        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-smaller btn-Hire me-3 mb-3 w-100">Hire Me</button>
+        <a class="btn btn-smaller btn-dark w-100" href="../../../assets/CV - Mario Di Modica.pdf" download="CV - Mario Di Modica">Download CV</a>
+      </div>
+    </div>
+    <div class="text-div-sm d-md-none container position-absolute">
+      <p class="description-xs text-light d-block d-sm-none"><span style="font-size: 4rem;">👋🏻</span> <br> Hi! I'm <span>Mario Di Modica</span> from Italy and I have a Bachelor's Degree in Computer Science at University of Pisa.</p>
+      <div class="d-flex flex-column justify-content-center d-sm-none">
+        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-smaller btn-Hire me-3 mb-3 w-100">Hire Me</button>
+        <a class="btn btn-smaller btn-dark w-100" href="../../../assets/CV - Mario Di Modica.pdf" download="CV - Mario Di Modica">Download CV</a>
+      </div>
+    </div>
+    <a class="arrow" (click)="toSkills()"><i class="bi bi-arrow-down-short"></i></a>
+    <img src="../../../assets/profile-pic.jpg" alt="">
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Hire Me</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        I'm very happy to see you interested in my profile. You can book free discovery call with me to discuss your project and see if we are a good fit or contact me via socials on the top-right links of the navbar.
+      </div>
+      <div class="modal-footer">
+        <a href="https://calendly.com/mxo01/discovery-call" class="btn btn-Hire">Discovery call <i class="ms-1 bi bi-camera-video"></i></a>
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

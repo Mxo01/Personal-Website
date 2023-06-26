@@ -1,0 +1,82 @@
+#projects {
+  height: 100svh;
+  background-color: #101518;
+}
+
+.landing {
+  height: calc(100svh - 56px);
+  transform: translateY(56px);
+  width: 100%;
+}
+
+.projects-background {
+  color: #1f262a;
+  font-size: 18vw;
+  z-index: -1;
+}
+
+.horizontal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  width: 100vw;
+  overflow-x: auto;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 1rem;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.slide, b {
+  color: #40759e ;
+}
+
+.btn {
+  border: none;
+  width: fit-content;
+  background-color: #40759e;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #1e5c8b;
+}
+
+.btn:active {
+  background-color: #40759e;
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  font-size: 3rem;
+  color: #40759e;
+  cursor: pointer;
+  animation: floating ease 3s infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0%, 0%)
+  }
+
+  50% {
+    transform: translate(0%, 25%)
+  }
+
+  100% {
+    transform: translate(0%, 0%)
+  }
+}
+

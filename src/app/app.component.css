@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  z-index: 100;
+  cursor: pointer;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5c8b7f;
+  color: white;
+  opacity: 0;
+  transition: all 0.4s;
+  pointer-events: none;
+}
+
+.to-top.active {
+  bottom: 25px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.to-top.active:hover {
+  background-color: #4389bf;
+}
+
+.to-top.active:active {
+  background-color: #113049;
+}

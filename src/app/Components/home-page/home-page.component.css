@@ -1,0 +1,81 @@
+.landing {
+  height: 100svh;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100svh;
+  object-fit: cover;
+}
+
+.description {
+  font-size: 2.5rem;
+}
+
+.description-md {
+  font-size: 2rem;
+}
+
+.description-sm {
+  font-size: 1.5rem;
+}
+
+span {
+  color: #40759e;
+}
+
+.text-div-xl {
+  width: 45%;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.text-div-sm {
+  width: 65%;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.btn-Hire {
+  border: none;
+  background-color: #40759e;
+  color: white;
+}
+
+.btn-Hire:hover {
+  background-color: #1e5c8b;
+}
+
+.btn-Hire:active {
+  background-color: #40759e;
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  font-size: 3rem;
+  color: #40759e;
+  cursor: pointer;
+  animation: floating ease 3s infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0%, 0%)
+  }
+
+  50% {
+    transform: translate(0%, 25%)
+  }
+
+  100% {
+    transform: translate(0%, 0%)
+  }
+}
