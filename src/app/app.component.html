@@ -1,7 +1,17 @@
 <app-navbar></app-navbar>
-<app-home-page></app-home-page>
-<app-skills></app-skills>
-<app-projects></app-projects>
-<app-contact-page></app-contact-page>
+<div>
+  <section style="height: 100svh; scroll-snap-align: start;">
+    <app-home-page></app-home-page>
+  </section>
+  <section style="height: 100svh; scroll-snap-align: start;">
+    <app-skills></app-skills>
+  </section>
+  <section style="height: 100svh; scroll-snap-align: start;">
+    <app-projects></app-projects>
+  </section>
+  <section style="height: 100svh; scroll-snap-align: start;">
+    <app-contact-page></app-contact-page>
+  </section>
+</div>
 
 <a class="btn to-top" (click)="backToTop()"><i class="bi bi-chevron-up"></i></a>
