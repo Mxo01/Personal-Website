@@ -40,18 +40,18 @@
   color: #40759e ;
 }
 
-.btn {
+.btn-sc {
   border: none;
   width: fit-content;
   background-color: #40759e;
   color: white;
 }
 
-.btn:hover {
+.btn-sc:hover {
   background-color: #1e5c8b;
 }
 
-.btn:active {
+.btn-sc:active {
   background-color: #40759e;
   color: white;
 }
