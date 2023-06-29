@@ -19,6 +19,7 @@
   position: absolute;
   bottom: 2%;
   left: 50%;
+  translate: -50%;
   font-size: 3rem;
   color: #40759e;
   cursor: pointer;
@@ -87,16 +88,4 @@ h1 {
 
 .snaps-y > * {
   scroll-snap-align: start;
-}
-
-@media (max-width: 400px) {
-  .arrow {
-    position: absolute;
-    left: 44%;
-    bottom: 2%;
-    font-size: 3rem;
-    color: #40759e;
-    cursor: pointer;
-    animation: floating ease 3s infinite;
-  }
 }
