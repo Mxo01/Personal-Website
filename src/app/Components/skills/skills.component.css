@@ -53,6 +53,14 @@ h1 {
   width: 100vw;
 }
 
+.first {
+  margin-left: 100px;
+}
+
+.last {
+  margin-right: 150px;
+}
+
 .vertical {
   position: absolute;
   top: 50%;
