@@ -16,17 +16,23 @@
 }
 
 .phone, .email {
-  font-size: 4vw;
+  font-size: 2rem;
   font-weight: 600;
   margin: 0;
 }
 
-.email {
+.phone-sm, .email-sm {
+  font-size: .8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.email, .email-sm {
   text-decoration: none;
   color: #adb5bd;
 }
 
-.email:hover {
+.email:hover, .email-sm:hover {
   transition: scale(1.1);
   transition: 0.4s;
   color: #40759e
