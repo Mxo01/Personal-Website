@@ -1,6 +1,7 @@
 #contacts {
   height: 100vh;
   background-color: #101518;
+  overflow: hidden;
 }
 
 .landing {
