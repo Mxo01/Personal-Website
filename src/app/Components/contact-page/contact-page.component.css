@@ -1,10 +1,10 @@
 #contacts {
-  height: 100svh;
+  height: 100vh;
   background-color: #101518;
 }
 
 .landing {
-  height: calc(100svh - 56px);
+  height: 100vh;
   transform: translateY(56px);
   width: 100%;
 }
