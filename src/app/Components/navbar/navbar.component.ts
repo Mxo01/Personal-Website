@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   toHome() {
-    document.getElementById('home')!.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('home')!.scrollIntoView(true);
   }
 
   toSkills() {
-    document.getElementById('skills')!.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('skills')!.scrollIntoView(true);
   }
 
   toProjects() {
-    document.getElementById('projects')!.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('projects')!.scrollIntoView(true);
   }
 
   toContacts() {
-    document.getElementById('contacts')!.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('contacts')!.scrollIntoView(true);
   }
 }

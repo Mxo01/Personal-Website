@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class HomePageComponent {
 
   toSkills() {
-    document.getElementById('skills')!.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('skills')!.scrollIntoView(true);
   }
 }

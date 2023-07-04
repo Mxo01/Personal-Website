@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
   toProjects() {
-    document.getElementById('projects')!.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('projects')!.scrollIntoView(true);
   }
 }
