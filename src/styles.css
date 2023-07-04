@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  overscroll-behavior-y: none;
+  overscroll-behavior: none;
 }
 
 ::-webkit-scrollbar{
