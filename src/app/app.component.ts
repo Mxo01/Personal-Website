@@ -18,6 +18,6 @@ export class AppComponent implements  OnInit {
   }
 
   backToTop() {
-    window.scrollTo(0, 0);
+    document.getElementById('home')!.scrollIntoView(true);
   }
 }
