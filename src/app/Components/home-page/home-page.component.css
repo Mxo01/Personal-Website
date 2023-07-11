@@ -21,6 +21,10 @@ img {
   font-size: 1.5rem;
 }
 
+.hand {
+  font-size: 4rem;
+}
+
 span {
   color: #40759e;
 }
@@ -78,5 +82,34 @@ span {
 
   100% {
     transform: translate(0%, 0%)
+  }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+  .description {
+    font-size: 1.2rem;
+  }
+
+  .description-md {
+    font-size: 1.2rem;
+  }
+
+  .description-sm {
+    font-size: 1.2rem;
+  }
+
+  .hand {
+    font-size: 2rem;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    translate: -50%;
+    font-size: 2.5rem;
+    color: #40759e;
+    cursor: pointer;
+    animation: floating ease 3s infinite;
   }
 }

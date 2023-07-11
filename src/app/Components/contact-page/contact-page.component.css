@@ -7,7 +7,7 @@
 .landing {
   height: 100vh;
   transform: translateY(56px);
-  width: 100%;
+  width: 100vw;
 }
 
 .contacts-background {
@@ -39,6 +39,10 @@
   color: #40759e
 }
 
+.free-dc {
+  margin-bottom: 50px;
+}
+
 .btn {
   border: none;
   background-color: #40759e;
@@ -52,4 +56,22 @@
 .btn:active {
   background-color: #40759e;
   color: white;
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+  .free-dc {
+    margin-bottom: 20px;
+  }
+
+  .phone, .email {
+    font-size: 1rem;
+  }
+
+  .phone-sm, .email-sm {
+    font-size: .5rem;
+  }
+
+  .email {
+    margin-bottom: 50px;
+  }
 }
