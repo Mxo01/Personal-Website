@@ -1,77 +1,83 @@
 #contacts {
-  height: 100vh;
-  background-color: #101518;
-  overflow: hidden;
+	height: 100vh;
+	background-color: #101518;
+	overflow: hidden;
 }
 
 .landing {
-  height: 100vh;
-  transform: translateY(56px);
-  width: 100vw;
+	height: 100vh;
+	transform: translateY(56px);
+	width: 100vw;
 }
 
 .contacts-background {
-  color: #1f262a;
-  font-size: 18vw;
-  z-index: -1;
+	color: #1f262a;
+	font-size: 18vw;
+	z-index: -1;
 }
 
-.phone, .email {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 0;
+.phone,
+.email {
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 0;
 }
 
-.phone-sm, .email-sm {
-  font-size: .8rem;
-  font-weight: 600;
-  margin: 0;
+.phone-sm,
+.email-sm {
+	font-size: 0.8rem;
+	font-weight: 600;
+	margin: 0;
 }
 
-.email, .email-sm {
-  text-decoration: none;
-  color: #adb5bd;
+.email,
+.email-sm {
+	text-decoration: none;
+	color: #adb5bd;
 }
 
-.email:hover, .email-sm:hover {
-  transition: scale(1.1);
-  transition: 0.4s;
-  color: #40759e
+.email:hover,
+.email-sm:hover {
+	transition: scale(1.1);
+	transition: 0.4s;
+	color: #40759e;
 }
 
 .free-dc {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .btn {
-  border: none;
-  background-color: #40759e;
-  color: white;
+	border: none;
+	background-color: #40759e;
+	color: white;
 }
 
 .btn:hover {
-  background-color: #1e5c8b;
+	background-color: #1e5c8b;
 }
 
 .btn:active {
-  background-color: #40759e;
-  color: white;
+	background-color: #40759e;
+	color: white;
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
-  .free-dc {
-    margin-bottom: 20px;
-  }
+	.free-dc {
+		margin-bottom: 20px;
+	}
 
-  .phone, .email {
-    font-size: 1rem;
-  }
+	.phone,
+	.email {
+		font-size: 1rem;
+	}
 
-  .phone-sm, .email-sm {
-    font-size: .5rem;
-  }
+	.phone-sm,
+	.email-sm {
+		font-size: 0.5rem;
+	}
 
-  .email {
-    margin-bottom: 50px;
-  }
+	.email {
+		margin-bottom: 50px;
+	}
 }

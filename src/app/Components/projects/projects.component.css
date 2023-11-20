@@ -1,127 +1,128 @@
 #projects {
-  height: 100svh;
-  background-color: #101518;
+	height: 100svh;
+	background-color: #101518;
 }
 
 .landing {
-  height: calc(100svh - 56px);
-  transform: translateY(56px);
-  width: 100%;
+	height: calc(100svh - 56px);
+	transform: translateY(56px);
+	width: 100%;
 }
 
 .projects-background {
-  color: #1f262a;
-  font-size: 18vw;
-  z-index: -1;
+	color: #1f262a;
+	font-size: 18vw;
+	z-index: -1;
 }
 
 .horizontal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  width: 100vw;
-  overflow-x: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 100%;
+	width: 100vw;
+	overflow-x: auto;
 }
 
 #sm-txt {
-  display: block;
+	display: block;
 }
 
 #h-txt {
-  display: none;
+	display: none;
 }
 
 .snaps-inline {
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 1rem;
+	scroll-snap-type: inline mandatory;
+	scroll-padding-inline: 1rem;
 }
 
 .snaps-inline > * {
-  scroll-snap-align: start;
+	scroll-snap-align: start;
 }
 
-.slide, b {
-  color: #40759e ;
+.slide,
+b {
+	color: #40759e;
 }
 
 .btn-sc {
-  border: none;
-  width: fit-content;
-  background-color: #40759e;
-  color: white;
+	border: none;
+	width: fit-content;
+	background-color: #40759e;
+	color: white;
 }
 
 .btn-sc:hover {
-  background-color: #1e5c8b;
+	background-color: #1e5c8b;
 }
 
 .btn-sc:active {
-  background-color: #40759e;
-  color: white;
+	background-color: #40759e;
+	color: white;
 }
 
 .arrow {
-  position: absolute;
-  bottom: 2%;
-  left: 50%;
-  translate: -50%;
-  font-size: 3rem;
-  color: #40759e;
-  cursor: pointer;
-  animation: floating ease 3s infinite;
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+	translate: -50%;
+	font-size: 3rem;
+	color: #40759e;
+	cursor: pointer;
+	animation: floating ease 3s infinite;
 }
 
 @keyframes floating {
-  0% {
-    transform: translate(0%, 0%)
-  }
+	0% {
+		transform: translate(0%, 0%);
+	}
 
-  50% {
-    transform: translate(0%, 25%)
-  }
+	50% {
+		transform: translate(0%, 25%);
+	}
 
-  100% {
-    transform: translate(0%, 0%)
-  }
+	100% {
+		transform: translate(0%, 0%);
+	}
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
-  .horizontal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 80vh;
-    width: 100vw;
-    overflow-x: auto;
-  }
+	.horizontal {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 80vh;
+		width: 100vw;
+		overflow-x: auto;
+	}
 
-  .btn-sc {
-    height: fit-content;
-  }
+	.btn-sc {
+		height: fit-content;
+	}
 
-  #sm-txt {
-    display: none;
-  }
+	#sm-txt {
+		display: none;
+	}
 
-  #h-txt {
-    text-align: center;
-    display: block;
-    font-size: 1.8vw;
-  }
+	#h-txt {
+		text-align: center;
+		display: block;
+		font-size: 1.8vw;
+	}
 
-  .arrow {
-    position: absolute;
-    bottom: 2%;
-    left: 50%;
-    translate: -50%;
-    font-size: 2.5rem;
-    color: #40759e;
-    cursor: pointer;
-    animation: floating ease 3s infinite;
-  }
+	.arrow {
+		position: absolute;
+		bottom: 2%;
+		left: 50%;
+		translate: -50%;
+		font-size: 2.5rem;
+		color: #40759e;
+		cursor: pointer;
+		animation: floating ease 3s infinite;
+	}
 }

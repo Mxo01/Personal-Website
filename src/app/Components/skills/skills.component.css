@@ -1,139 +1,139 @@
 #skills {
-  height: 100svh;
-  background-color: #101518;
+	height: 100svh;
+	background-color: #101518;
 }
 
 .landing {
-  height: calc(100svh - 56px);
-  width: 100%;
-  transform: translateY(56px);
+	height: calc(100svh - 56px);
+	width: 100%;
+	transform: translateY(56px);
 }
 
 .skills-background {
-  color: #1f262a;
-  font-size: 18vw;
-  z-index: -1;
+	color: #1f262a;
+	font-size: 18vw;
+	z-index: -1;
 }
 
 .arrow {
-  position: absolute;
-  bottom: 2%;
-  left: 50%;
-  translate: -50%;
-  font-size: 3rem;
-  color: #40759e;
-  cursor: pointer;
-  animation: floating ease 3s infinite;
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+	translate: -50%;
+	font-size: 3rem;
+	color: #40759e;
+	cursor: pointer;
+	animation: floating ease 3s infinite;
 }
 
 h1 {
-  color: #40759e;
+	color: #40759e;
 }
 
 @keyframes floating {
-  0% {
-    transform: translate(0%, 0%)
-  }
+	0% {
+		transform: translate(0%, 0%);
+	}
 
-  50% {
-    transform: translate(0%, 25%)
-  }
+	50% {
+		transform: translate(0%, 25%);
+	}
 
-  100% {
-    transform: translate(0%, 0%)
-  }
+	100% {
+		transform: translate(0%, 0%);
+	}
 }
 
 .horizontal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 60vh;
-  width: 100vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 60vh;
+	width: 100vw;
 }
 
 .first {
-  margin-left: 100px;
+	margin-left: 100px;
 }
 
 .last {
-  margin-right: 150px;
+	margin-right: 150px;
 }
 
 .vertical {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 60vh;
-  width: 100vw;
-  overflow-y: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 60vh;
+	width: 100vw;
+	overflow-y: auto;
 }
 
 .item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex: 1;
-  height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex: 1;
+	height: 60vh;
 }
 
 .vertical h1 {
-  font-size: 10vw
+	font-size: 10vw;
 }
 
 .vertical p {
-  font-size: 5vw;
-  height: fit-content;
+	font-size: 5vw;
+	height: fit-content;
 }
 
 .snaps-y {
-  scroll-snap-type: y mandatory;
+	scroll-snap-type: y mandatory;
 }
 
 .snaps-y > * {
-  scroll-snap-align: start;
+	scroll-snap-align: start;
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
-  .vertical {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 60vh;
-    width: 100vw;
-    overflow-y: auto;
-  }
+	.vertical {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 60vh;
+		width: 100vw;
+		overflow-y: auto;
+	}
 
-  .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex: none;
-    height: 60vh;
-  }
+	.item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		flex: none;
+		height: 60vh;
+	}
 
-  .vertical h1 {
-    font-size: 6vw
-  }
+	.vertical h1 {
+		font-size: 6vw;
+	}
 
-  .vertical p {
-    font-size: 3vw;
-    height: fit-content;
-  }
+	.vertical p {
+		font-size: 3vw;
+		height: fit-content;
+	}
 
-  .arrow {
-    position: absolute;
-    bottom: 2%;
-    left: 50%;
-    translate: -50%;
-    font-size: 2.5rem;
-    color: #40759e;
-    cursor: pointer;
-    animation: floating ease 3s infinite;
-  }
+	.arrow {
+		position: absolute;
+		bottom: 2%;
+		left: 50%;
+		translate: -50%;
+		font-size: 2.5rem;
+		color: #40759e;
+		cursor: pointer;
+		animation: floating ease 3s infinite;
+	}
 }

@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+	selector: "app-projects",
+	templateUrl: "./projects.component.html",
+	styleUrls: ["./projects.component.css"],
 })
 export class ProjectsComponent {
-  toContacts() {
-    document.getElementById('contacts')!.scrollIntoView(true);
-  }
+	toContacts() {
+		document.getElementById("contacts")!.scrollIntoView(true);
+	}
 }
